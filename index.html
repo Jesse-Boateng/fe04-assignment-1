@@ -5,6 +5,63 @@
     <title>Styling Exercise</title>
     <style>
         /* Your CSS code goes here */
+        .header{
+            background-color: grey;
+            padding: 12px;
+            margin: 18px;
+        }
+
+        .main{
+            background-color: bisque;
+            padding: 12px;
+            margin: 18px;
+        }
+
+        .footer{
+            background-color: greenyellow;
+            padding: 12px;
+            margin: 18px;
+        }
+
+        h1{
+            color: brown;
+            font-size: 22px;
+        }
+
+        h2{
+            color: orange;
+            font-size: 20px;
+        }
+
+        p{
+            color: red;
+            font-size: 14px; 
+        }
+
+        #first-item{
+            border: 1px solid rebeccapurple;
+            color: blue;
+        }
+
+       .header a:hover{
+            color: chocolate;
+            
+        }
+
+        .footer a:hover{
+            color: black;
+            
+        }
+
+        .main #p1::first-letter{
+            font-size: 24px;
+            color: seagreen;
+        }
+
+        .main #p2::first-letter{
+            font-size: 24px;
+            color: indigo;
+        }
     </style>
 </head>
 
@@ -26,10 +83,10 @@
             <li>Item 2</li>
             <li>Item 3</li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod tortor ut mauris tincidunt, in
+        <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod tortor ut mauris tincidunt, in
             ultricies nibh feugiat. Suspendisse potenti. Fusce eleifend felis eget suscipit bibendum. Mauris facilisis
             tristique dolor ac imperdiet. Duis sit amet lectus mauris.</p>
-        <p>Curabitur congue lacinia nibh, a vehicula urna varius ac. Etiam vitae lectus diam. Ut suscipit elit non elit
+        <p id="p2">Curabitur congue lacinia nibh, a vehicula urna varius ac. Etiam vitae lectus diam. Ut suscipit elit non elit
             suscipit sodales. Sed sollicitudin nulla justo, in iaculis odio dapibus vel. Fusce auctor molestie turpis,
             sit amet venenatis ipsum eleifend et.</p>
     </main>
